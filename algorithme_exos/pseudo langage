@@ -1,0 +1,42 @@
+ALGO Exo5mot : chaine de caractère
+mot = mot en minuscule
+choix: nombre
+remplac : caractère
+deb_mot , fin_mot : nombre
+palindrome : vrai
+
+DEBUT
+Si choix = 1
+    deb_mot = 0
+    fin_mot = taille du « mot » -1
+    Tant que deb_mot < fin_mot
+    palindrome = vrai
+        Si mot(deb_mot)!=mot(fin_mot)
+            palindrome = faux
+        FinSi
+        deb_mot = deb_mot +1
+        fin_mot = fin_mot -1
+    FinTantque    Si palindrome
+        Afficher « c’est un palindrome »
+    FinSi
+FinSi
+
+Si choix = 2
+    nb_lettre =0
+    Pour i de 0 à taille du mot
+        Tester si mot(i) est une lettre
+    FinPour
+FinSi
+Si choix = 3
+    remp = z
+    val = w
+    Pour i de 0 à taille du mot
+        Si mot(i) = val alors
+            mot(i)=remp
+        FinSi
+    FinPour
+FinSi    Si choix 4 :
+    compter nombre de lettres (mot)
+    diviser nombre de lettres / 2 (arrondir)
+    insérer un espace au milieu du mot
+FinSiFIN
