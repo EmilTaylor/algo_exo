@@ -1,4 +1,4 @@
-import re
+import sys
 choice=4
 mot="beweb"
 deb_mot=0           #commencer 1ere lettre
@@ -8,12 +8,12 @@ if choice==1:
 
         while mot[deb_mot]<mot [fin_mot]: #Tant que le debut du mot < fin du mot
             verif=True
-            print "Ceci n'est pas un palindrome"
+            print "Ce mot est un palindrome"
             if mot(deb_mot)!= mot(fin_mot):#si le debut du mot est different de la fin du mot
                 verif=False
             deb_mot=deb_mot+1 #avancer dans le mot
             fin_mot=fin_mot-1 #avancer
-        print"Ceci est un palindrome"
+        print"Ce mot n'est pas un palindrome"
 
 
 if choice==2:
