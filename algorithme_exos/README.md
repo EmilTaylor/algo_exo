@@ -1,6 +1,6 @@
+Ce qui est fait :
 #exo1 
-
-exo 1 : php python ruby java
+php python ruby java
 
 #exo5 
 python 
