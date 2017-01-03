@@ -8,4 +8,8 @@ python
 
 #exo5 
 python 
+
+#exo6 
+python
+
 OK
